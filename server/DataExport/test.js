@@ -1,7 +1,7 @@
 import mongoose from "mongoose";
-import Role from "./models/Role.js";
+import Role from "../models/Role.js";
 import dotenv from 'dotenv';
-import Status from "./models/Status.js";
+import Status from "../models/Status.js";
 dotenv.config({path: "./.env"});
 
 try {

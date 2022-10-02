@@ -1,10 +1,10 @@
 import { Router } from "express";
-import { register, login, getProfile } from '../controllers/auth.js';
+import { signup, login, getProfile } from '../controllers/user.js';
 const router = new Router();
 
 // Register
 // http://domain.com/api/auth/register
-router.post('/register', register)
+router.post('/signup', signup)
 
 // Login
 // http://domain.com/api/auth/login

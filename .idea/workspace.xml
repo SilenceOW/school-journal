@@ -1,8 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f4b1a1a6-afb9-452e-ad29-b6fdb1ce7c5c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/client/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/client/.gitignore" afterDir="false" />
+    <list default="true" id="f4b1a1a6-afb9-452e-ad29-b6fdb1ce7c5c" name="Changes" comment="1">
+      <change afterPath="$PROJECT_DIR$/server/client/src/components/Auth/SignUp.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/client/src/context/AuthContext.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/client/src/pages/Auth.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/client/src/setupProxy.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/pages/Main.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/client/src/components/Auth/Login.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/logo192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/logo512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/App.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/reportWebVitals.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/setupTests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/DataExport/test.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/DataExport/test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/controllers/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/controllers/user.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/models/Class.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/models/Class.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/models/Grade.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/models/Grade.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/models/Lesson.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/models/Lesson.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/models/Post.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/models/Post.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/models/Role.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/models/Role.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/models/School.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/models/School.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/models/Status.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/models/Status.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/models/Subject.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/models/Subject.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/models/User.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/models/User.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/routes/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/routes/user.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,28 +55,38 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/client" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2FWy5W2VdLy4a2s6N1pBmfj7iA8" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.Color Scheme Font",
+    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\WebStorm 2022.2.2\\plugins\\JavaScriptLanguage\\jsLanguageServicesImpl\\external",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Andrey.ANDREY-HOME\Desktop\10 School Project\school journal\server\client\src" />
+      <recent name="C:\Users\Andrey.ANDREY-HOME\Desktop\10 School Project\school journal\server" />
+      <recent name="C:\Users\Andrey.ANDREY-HOME\Desktop\10 School Project\school journal\server\DataExport" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -50,8 +97,20 @@
       <updated>1664621953620</updated>
       <workItem from="1664621955118" duration="4544000" />
       <workItem from="1664627062586" duration="3938000" />
-      <workItem from="1664634635635" duration="825000" />
+      <workItem from="1664634635635" duration="1498000" />
+      <workItem from="1664643776969" duration="79000" />
+      <workItem from="1664643865409" duration="4299000" />
+      <workItem from="1664706820081" duration="8300000" />
+      <workItem from="1664717947481" duration="8212000" />
     </task>
+    <task id="LOCAL-00001" summary="1">
+      <created>1664635489999</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1664635489999</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -67,5 +126,12 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/client" />
+    </ignored-roots>
+    <MESSAGE value="1" />
+    <option name="LAST_COMMIT_MESSAGE" value="1" />
   </component>
 </project>
