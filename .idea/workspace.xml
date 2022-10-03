@@ -1,45 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f4b1a1a6-afb9-452e-ad29-b6fdb1ce7c5c" name="Changes" comment="1">
-      <change afterPath="$PROJECT_DIR$/server/client/src/components/Auth/SignUp.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/client/src/context/AuthContext.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/client/src/pages/Auth.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/client/src/setupProxy.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="f4b1a1a6-afb9-452e-ad29-b6fdb1ce7c5c" name="Changes" comment="Schools and also front end Login, Logout, Signup hooks and AuthContext">
+      <change afterPath="$PROJECT_DIR$/.idea/git_toolbox_prj.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/client/src/hooks/useLogin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/client/src/hooks/useLogout.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/client/src/hooks/useSignup.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/client/src/pages/Signup.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/controllers/schools.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/middleware/requireAuth.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/routes/schools.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/pages/Main.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/client/src/components/Auth/Login.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/public/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/public/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/public/logo192.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/public/logo512.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/public/manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/public/robots.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/App.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/App.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/App.test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/reportWebVitals.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/setupTests.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/DataExport/test.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/DataExport/test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/controllers/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/controllers/user.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/models/Class.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/models/Class.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/models/Grade.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/models/Grade.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/models/Lesson.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/models/Lesson.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/models/Post.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/models/Post.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/models/Role.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/models/Role.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/client/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/client/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/client/src/components/Auth/Login.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/client/src/pages/Login.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/client/src/components/Auth/SignUp.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/client/src/context/AuthContext.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/client/src/context/AuthContext.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/client/src/pages/Auth.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/server/models/School.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/models/School.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/models/Status.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/models/Status.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/models/Subject.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/models/Subject.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/models/User.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/models/User.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/routes/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/routes/user.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,6 +34,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -68,20 +48,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.Color Scheme Font",
-    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\WebStorm 2022.2.2\\plugins\\JavaScriptLanguage\\jsLanguageServicesImpl\\external",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors.Color Scheme Font&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\WebStorm 2022.2.2\\plugins\\JavaScriptLanguage\\jsLanguageServicesImpl\\external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Andrey.ANDREY-HOME\Desktop\10 School Project\school journal\server\client\src\pages" />
       <recent name="C:\Users\Andrey.ANDREY-HOME\Desktop\10 School Project\school journal\server\client\src" />
       <recent name="C:\Users\Andrey.ANDREY-HOME\Desktop\10 School Project\school journal\server" />
       <recent name="C:\Users\Andrey.ANDREY-HOME\Desktop\10 School Project\school journal\server\DataExport" />
@@ -101,7 +82,8 @@
       <workItem from="1664643776969" duration="79000" />
       <workItem from="1664643865409" duration="4299000" />
       <workItem from="1664706820081" duration="8300000" />
-      <workItem from="1664717947481" duration="8212000" />
+      <workItem from="1664717947481" duration="8627000" />
+      <workItem from="1664818999421" duration="4937000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1664635489999</created>
@@ -110,7 +92,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664635489999</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="1">
+      <created>1664731251870</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1664731251870</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -132,6 +121,7 @@
       <path value="$PROJECT_DIR$/client" />
     </ignored-roots>
     <MESSAGE value="1" />
-    <option name="LAST_COMMIT_MESSAGE" value="1" />
+    <MESSAGE value="Schools and also front end Login, Logout, Signup hooks and AuthContext" />
+    <option name="LAST_COMMIT_MESSAGE" value="Schools and also front end Login, Logout, Signup hooks and AuthContext" />
   </component>
 </project>

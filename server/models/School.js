@@ -25,4 +25,17 @@ const SchoolSchema = new mongoose.Schema(
     {timestamps: true}
 )
 
+SchoolSchema.statics.createNewSchool = async function(name, country, region, address, description = "") {
+    if (!name || !country || !region || !address) throw Error("Заполните все поля!");
+    return await this.create({name, country, region, address, description});
+}
+
+SchoolSchema.statics.deleteSchool = async function(_id) {
+    await this.deleteOne({ _id });
+}
+
+SchoolSchema.statics.getArrayOfSchools = async function() {
+    return await this.find();
+}
+
 export default mongoose.model('School', SchoolSchema);
