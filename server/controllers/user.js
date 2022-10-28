@@ -33,7 +33,7 @@ export const login = async (req, res) => {
         // create JWT
         const token = createToken(user._id);
 
-        res.status(200).json({username, token});
+        res.status(200).json({username: user.username, email: user.email, token});
     } catch (error) {
         res.status(400).json({error: error.message});
     }
@@ -42,5 +42,12 @@ export const login = async (req, res) => {
 // Get profile
 
 export const getProfile = async (req, res) => {
-    res.json({mssg: "getProfile page"})
+     const { _id } = req.body;
+     try {
+         const user = await User.getUserData(_id);
+
+         res.status(200).json({ user });
+     } catch (error) {
+         res.status(400).json({ error: error.message });
+     }
 }

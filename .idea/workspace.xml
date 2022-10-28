@@ -2,21 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f4b1a1a6-afb9-452e-ad29-b6fdb1ce7c5c" name="Changes" comment="Schools and also front end Login, Logout, Signup hooks and AuthContext">
-      <change afterPath="$PROJECT_DIR$/.idea/git_toolbox_prj.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/client/src/hooks/useLogin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/client/src/hooks/useLogout.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/client/src/hooks/useSignup.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/client/src/pages/Signup.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/controllers/schools.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/middleware/requireAuth.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/routes/schools.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/client/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/client/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/client/src/components/Auth/Login.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/client/src/pages/Login.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/client/src/components/Auth/SignUp.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/client/src/context/AuthContext.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/client/src/context/AuthContext.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/client/src/pages/Auth.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/client/public/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/client/public/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/client/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/client/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/client/src/pages/Login.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/client/src/pages/Login.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/controllers/schools.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/controllers/schools.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/controllers/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/controllers/user.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/middleware/requireAuth.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/middleware/requireAuth.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/models/School.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/models/School.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/models/User.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/models/User.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/routes/schools.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/routes/schools.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/routes/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/routes/user.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +51,8 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;javascript.nodejs.core.library.configured.version&quot;: &quot;16.14.2&quot;,
+    &quot;javascript.nodejs.core.library.typings.version&quot;: &quot;16.11.64&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors.Color Scheme Font&quot;,
     &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\WebStorm 2022.2.2\\plugins\\JavaScriptLanguage\\jsLanguageServicesImpl\\external&quot;,
@@ -83,7 +82,13 @@
       <workItem from="1664643865409" duration="4299000" />
       <workItem from="1664706820081" duration="8300000" />
       <workItem from="1664717947481" duration="8627000" />
-      <workItem from="1664818999421" duration="4937000" />
+      <workItem from="1664818999421" duration="4995000" />
+      <workItem from="1664886683678" duration="5846000" />
+      <workItem from="1664980037437" duration="2750000" />
+      <workItem from="1665059199202" duration="2196000" />
+      <workItem from="1665301912489" duration="870000" />
+      <workItem from="1666529233255" duration="353000" />
+      <workItem from="1666540124734" duration="1425000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1664635489999</created>
@@ -99,7 +104,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664731251870</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Schools and also front end Login, Logout, Signup hooks and AuthContext">
+      <created>1664823987583</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1664823987583</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -85,4 +85,16 @@ UserSchema.statics.login = async function(username, password) {
     return user;
 }
 
+UserSchema.statics.getUserData = async function(_id) {
+    if (!_id) throw Error("Bad request");
+    return await this.findOne({ _id }, { _id: 0, password: 0 });
+}
+
+UserSchema.statics.updateUserData = async function(_id, data) {
+    if (!(_id && data)) throw Error("Bad request");
+    const user = this.findOne({ _id });
+    if (!user) throw Error("Данного пользователя не существует");
+    
+}
+
 export default mongoose.model('User', UserSchema);

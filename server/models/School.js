@@ -27,11 +27,13 @@ const SchoolSchema = new mongoose.Schema(
 
 SchoolSchema.statics.createNewSchool = async function(name, country, region, address, description = "") {
     if (!name || !country || !region || !address) throw Error("Заполните все поля!");
+    const isExist = (await this.findOne({ name, country, region }));
+    if (isExist) throw Error("Эта школа уже зарегистрирована в портале");
     return await this.create({name, country, region, address, description});
 }
 
 SchoolSchema.statics.deleteSchool = async function(_id) {
-    await this.deleteOne({ _id });
+    return await this.findOneAndDelete({ _id });
 }
 
 SchoolSchema.statics.getArrayOfSchools = async function() {
